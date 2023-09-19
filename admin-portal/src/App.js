@@ -5,9 +5,9 @@ import Header from './scenes/global/Header';
 import Sidebar from './scenes/global/Sidebar';
 import Dashboard from './scenes/dashboard';
 import Team from './scenes/Team';
-// import Invoices from './scenes/Invoices';
+import Invoices from './scenes/Invoices';
 // import Calendar from './scenes/Calendar';
-// import Contacts from './scenes/Contacts';
+import Contacts from './scenes/Contacts';
 // import Bar from './scenes/Bar';
 // import Form from './scenes/Form';
 // import Line from './scenes/Line';
@@ -17,7 +17,7 @@ import Team from './scenes/Team';
 
 function App() {
   const [theme, colorMode] = useMode();
-  
+
   return (
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
@@ -29,8 +29,8 @@ function App() {
             <Routes>
               <Route path='/' element={<Dashboard/>} />
               <Route path='/team' element={<Team/>} />
-              {/* <Route path='/contacts' element={<Contacts/>} /> */}
-              {/* <Route path='/invoices' element={<Invoices/>} /> */}
+              <Route path='/contacts' element={<Contacts/>} />
+              <Route path='/invoices' element={<Invoices/>} />
               {/* <Route path='/bar' element={<Bar/>} /> */}
               {/* <Route path='/form' element={<Form/>} /> */}
               {/* <Route path='/line' element={<Line/>} /> */}
