@@ -119,6 +119,7 @@ const BarChart = ({ isDashboard = false }) => {
           ],
         },
       ]}
+      // tooltip={(e) => <strong>{e.color}</strong>} -> Needs custom tooltip since it's currently broken.
       role="application"
       barAriaLabel={function (e) {
         return e.id + ": " + e.formattedValue + " in country: " + e.indexValue;

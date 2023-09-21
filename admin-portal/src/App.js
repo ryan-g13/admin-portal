@@ -11,8 +11,8 @@ import Contacts from './scenes/Contacts';
 import Bar from './scenes/Bar';
 import FAQ from './scenes/FAQ';
 import Form from './scenes/Form';
-// import Line from './scenes/Line';
-// import Pie from './scenes/Pie';
+import Line from './scenes/Line';
+import Pie from './scenes/Pie';
 // import Geography from './scenes/Geography';
 
 function App() {
@@ -35,8 +35,8 @@ function App() {
               <Route path='/faq' element={<FAQ/>} />
               <Route path='/form' element={<Form/>} />
               {/* <Route path='/geography' element={<Geography/>} /> */}
-              {/* <Route path='/line' element={<Line/>} /> */}
-              {/* <Route path='/pie' element={<Pie/>} /> */}
+              <Route path='/line' element={<Line/>} />
+              <Route path='/pie' element={<Pie/>} />
               <Route path='/team' element={<Team/>} />
             </Routes>
           </main>

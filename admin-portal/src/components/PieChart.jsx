@@ -13,27 +13,27 @@ const PieChart = () => {
         axis: {
           domain: {
             line: {
-              stroke: colors.grey[100],
+              stroke: colors.gray[100],
             },
           },
           legend: {
             text: {
-              fill: colors.grey[100],
+              fill: colors.gray[100],
             },
           },
           ticks: {
             line: {
-              stroke: colors.grey[100],
+              stroke: colors.gray[100],
               strokeWidth: 1,
             },
             text: {
-              fill: colors.grey[100],
+              fill: colors.gray[100],
             },
           },
         },
         legends: {
           text: {
-            fill: colors.grey[100],
+            fill: colors.gray[100],
           },
         },
       }}
@@ -47,7 +47,7 @@ const PieChart = () => {
         modifiers: [["darker", 0.2]],
       }}
       arcLinkLabelsSkipAngle={10}
-      arcLinkLabelsTextColor={colors.grey[100]}
+      arcLinkLabelsTextColor={colors.gray[100]}
       arcLinkLabelsThickness={2}
       arcLinkLabelsColor={{ from: "color" }}
       enableArcLabels={false}
@@ -96,7 +96,7 @@ const PieChart = () => {
             {
               on: "hover",
               style: {
-                itemTextColor: "#000",
+                itemTextColor: `${colors.greenAccent[500]}`,
               },
             },
           ],
