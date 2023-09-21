@@ -8,7 +8,7 @@ import { tokens } from '../../theme';
 
 /* TODO: Update the questions to be relevant  */
 
-const Faq = () => {
+const FAQ = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
@@ -66,4 +66,4 @@ const Faq = () => {
   </Box>)
 }
 
-export default Faq;
+export default FAQ;
