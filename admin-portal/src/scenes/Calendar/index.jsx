@@ -39,7 +39,7 @@ const Calendar = () => {
   }
 
   return (
-    <Box m=' 20px'>
+    <Box m='20px'>
       <SubHeader title='CALENDAR' subtitle='Full Calendar Interactive Page' />
       
       <Box display='flex' justifyContent='space-between'>
