@@ -19,7 +19,7 @@ const Team = () => {
     {field: "age", headerName: 'Age', type: 'number', headerAlign: 'left', align: 'left'},
     {field: "phone", headerName: 'Phone Number', flex: 1},
     {field: "email", headerName: 'Email', flex: 1},
-    {field: "access", headerName: 'Access Level', align: 'center', flex: 1, renderCell: ({row: {access}}) => {
+    {field: "access", headerName: 'Access Level', headerAlign: 'center',  align: 'center', flex: 1, renderCell: ({row: {access}}) => {
       return (
       <Box
         width='60%'
