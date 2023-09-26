@@ -269,50 +269,50 @@ export const mockDataInvoices = [
 export const mockTransactions = [
   {
     txId: "01e4dsa",
-    user: "johndoe",
-    date: "2021-09-01",
+    user: "johnbelushi",
+    date: "2023-09-10",
     cost: "43.95",
   },
   {
     txId: "0315dsaa",
-    user: "jackdower",
-    date: "2022-04-01",
+    user: "davechappele",
+    date: "2023-09-01",
     cost: "133.45",
   },
   {
     txId: "01e4dsa",
-    user: "aberdohnny",
-    date: "2021-09-01",
+    user: "carreyjim",
+    date: "2023-08-17",
     cost: "43.95",
   },
   {
     txId: "51034szv",
-    user: "goodmanave",
-    date: "2022-11-05",
+    user: "goodmansteve",
+    date: "2023-08-05",
     cost: "200.95",
   },
   {
     txId: "0a123sb",
-    user: "stevebower",
-    date: "2022-11-02",
+    user: "headburgmitch",
+    date: "2023-08-02",
     cost: "13.55",
   },
   {
     txId: "01e4dsa",
-    user: "aberdohnny",
-    date: "2021-09-01",
+    user: "carreyjim",
+    date: "2023-07-31",
     cost: "43.95",
   },
   {
     txId: "120s51a",
-    user: "wootzifer",
-    date: "2019-04-15",
+    user: "carsonjohnny",
+    date: "2023-07-15",
     cost: "24.20",
   },
   {
     txId: "0315dsaa",
-    user: "jackdower",
-    date: "2022-04-01",
+    user: "johnbelushi",
+    date: "2023-07-03",
     cost: "133.45",
   },
 ];
@@ -460,7 +460,7 @@ export const mockPieData = [
 
 export const mockLineData = [
   {
-    id: "japan",
+    id: "Canada",
     color: tokens("dark").greenAccent[500],
     data: [
       {
@@ -514,7 +514,7 @@ export const mockLineData = [
     ],
   },
   {
-    id: "france",
+    id: "Mexico",
     color: tokens("dark").blueAccent[300],
     data: [
       {
@@ -568,7 +568,7 @@ export const mockLineData = [
     ],
   },
   {
-    id: "us",
+    id: "USA",
     color: tokens("dark").redAccent[200],
     data: [
       {
