@@ -18,48 +18,48 @@ const FAQ = () => {
     <Accordion defaultExpanded>
       <AccordionSummary expandIcon={<ExpandMoreIcon />}>
         <Typography color={colors.greenAccent[500]} variant='h5'>
-          An Important Question
+          Where am I from? 
         </Typography>
       </AccordionSummary>
       <AccordionDetails>
         <Typography>
-          Long winded answer to the above query.
+          I am currently located in Seattle, Washington. I also attended the University of Washington. 
         </Typography>
       </AccordionDetails>
     </Accordion>
     <Accordion defaultExpanded>
       <AccordionSummary expandIcon={<ExpandMoreIcon />}>
         <Typography color={colors.greenAccent[500]} variant='h5'>
-          An Important Question
+          How many years of experience do you have in software development? 
         </Typography>
       </AccordionSummary>
       <AccordionDetails>
         <Typography>
-          Long winded answer to the above query.
+          I have 4+ years of coding experience, spanning React.js and Angular.js in the frontend and multiple languages in the backend (Java C# and Python)
         </Typography>
       </AccordionDetails>
     </Accordion>
     <Accordion defaultExpanded>
       <AccordionSummary expandIcon={<ExpandMoreIcon />}>
         <Typography color={colors.greenAccent[500]} variant='h5'>
-          An Important Question
+          What are some of your hobbies? 
         </Typography>
       </AccordionSummary>
       <AccordionDetails>
         <Typography>
-          Long winded answer to the above query.
+          I enjoy reading sci-fi and fantasy books with some noir/mystery thrown in. I ride my motorcycle to visit some incredibly twisty roads and to smell nature and feel the wind. As a good Seattle-ite I hike and take my dog out into nature with me.
         </Typography>
       </AccordionDetails>
     </Accordion>
     <Accordion defaultExpanded>
       <AccordionSummary expandIcon={<ExpandMoreIcon />}>
         <Typography color={colors.greenAccent[500]} variant='h5'>
-          An Important Question
+          What breed of dog do you have and what is his name?
         </Typography>
       </AccordionSummary>
       <AccordionDetails>
         <Typography>
-          Long winded answer to the above query.
+          My dog is named Benedict, after eggs benedict, but he goes by Benny. He is a miniature golden doodle, weighing in at 27 lbs and will be 3 this December. 
         </Typography>
       </AccordionDetails>
     </Accordion>
