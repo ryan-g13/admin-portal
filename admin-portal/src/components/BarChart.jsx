@@ -1,5 +1,6 @@
 import { useTheme } from "@mui/material";
 import { ResponsiveBar } from "@nivo/bar";
+import { BasicTooltip } from '@nivo/tooltip';
 import { tokens } from "../theme";
 import { mockBarData as data } from "../data/mockData";
 
@@ -36,6 +37,11 @@ const BarChart = ({ isDashboard = false }) => {
         legends: {
           text: {
             fill: colors.gray[100],
+          },
+        },
+        tooltip: {
+          container: {
+            color: colors.primary[500],
           },
         },
       }}
@@ -119,7 +125,6 @@ const BarChart = ({ isDashboard = false }) => {
           ],
         },
       ]}
-      // tooltip={(e) => <strong>{e.color}</strong>} -> Needs custom tooltip since it's currently broken.
       role="application"
       barAriaLabel={function (e) {
         return e.id + ": " + e.formattedValue + " in country: " + e.indexValue;
