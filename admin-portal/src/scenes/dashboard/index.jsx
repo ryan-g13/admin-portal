@@ -83,7 +83,7 @@ const Dashboard = () => {
                 >
                     <Box>
                         <Typography variant='h5' fontWeight='600' color={colors.gray[100]}>Revenue Generated</Typography>
-                        <Typography variant='h3' fontWeight='bold' color={colors.greenAccent[500]}>$63,455.00</Typography>
+                        <Typography variant='h3' fontWeight='bold' color={colors.greenAccent[500]}>$1,463,455.23</Typography>
                     </Box>
                     <Box>
                         <IconButton>

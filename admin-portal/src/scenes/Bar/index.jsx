@@ -5,7 +5,7 @@ import SubHeader from "../../components/SubHeader";
 const Bar = () => {
   return(
   <Box m='20px'>
-    <SubHeader title="Bar Chart" subtitle='Simple Bar Chart'/>
+    <SubHeader title="Food" subtitle='In Countries Visited'/>
     <Box height='75vh'>
       <BarChart />
     </Box>
